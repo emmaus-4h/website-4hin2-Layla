@@ -19,7 +19,7 @@ main {
 
 article {
     text-align: justify;
-    
+    margin-bottom: 40px; 
 }
 
 
@@ -39,7 +39,14 @@ footer {
 
 img.zweefLinks {
     float: left;
+    border: solid #303030 5px;
     margin-right: 15px;
+}
+
+img.zweefRechts {
+  float: right;
+  border: solid #303030 5px;
+  margin-left:10px;
 }
 
 .smalltext {
