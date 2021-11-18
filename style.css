@@ -19,9 +19,12 @@ main {
 
 article {
     text-align: justify;
-    margin-bottom: 40px; 
+     
 }
 
+div {
+  margin-bottom: 30px;
+}
 
 header {
     color: skyblue;
