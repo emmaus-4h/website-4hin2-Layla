@@ -51,6 +51,13 @@ img.zweefRechts {
   border: solid #303030 5px;
   margin-left:10px;
 }
+img.imgBorder {
+  border: solid #303030 5px;
+}
+.zweefMidden {
+  text-align: center;
+}
+
 
 .smalltext {
     font-size: 0.7em;
