@@ -63,6 +63,11 @@ img.imgBorder {
   margin-bottom: -10px;
 }
 
+#billy {
+height: 200px;
+width: 175px;
+}
+
 .smalltext {
     font-size: 0.7em;
 }
