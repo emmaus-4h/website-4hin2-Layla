@@ -49,12 +49,14 @@ img.zweefRechts {
   margin-left:10px;
 }
 
-img.imgBorder {
-  border: solid #303030 5px;
-}
-
 .zweefMidden {
   text-align: center;
+}
+
+
+img.imgBorder {
+  height: 190px;
+  width: 260px;
 }
 
 #biebzweefMidden {
@@ -64,8 +66,28 @@ img.imgBorder {
 }
 
 #billy {
-height: 200px;
-width: 175px;
+height: 210px;
+width: 165px;
+}
+
+#truth {
+  height: 210px;
+  width: 165px;
+}
+
+#addie {
+  height: 210px;
+  width: 165px;
+}
+
+#koningsblauw {
+  height: 210px;
+  width: 165px;
+}
+
+#oneofus {
+  height: 210px;
+  width: 165px;
 }
 
 .smalltext {
