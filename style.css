@@ -55,8 +55,8 @@ img.zweefRechts {
 
 
 img.imgBorder {
-  height: 190px;
-  width: 260px;
+  height: 210px;
+  width: 210px;
 }
 
 #biebzweefMidden {
@@ -66,28 +66,37 @@ img.imgBorder {
 }
 
 #billy {
-height: 210px;
-width: 165px;
+  height: 210px;
+  width: 160px; 
 }
 
 #truth {
-  height: 210px;
-  width: 165px;
+ height: 210px;
+  width: 160px;
 }
 
 #addie {
   height: 210px;
-  width: 165px;
+  width: 160px;
 }
 
 #koningsblauw {
   height: 210px;
-  width: 165px;
+  width: 160px;
 }
 
 #oneofus {
   height: 210px;
-  width: 165px;
+  width: 160px;
+}
+
+#achilles {
+  height: 210px;
+  width: 160px;
+}
+
+.biebtekst {
+  text-align: center;
 }
 
 .smalltext {
