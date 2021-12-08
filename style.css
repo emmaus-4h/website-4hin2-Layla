@@ -4,9 +4,9 @@ html, body {
     height: 100%;
     padding: 0;
     background-color: #EEEEEE;  
-    
     color: #303030;
     font: verdana, ariel, sans-serif;
+    
 }
 
 main {
@@ -27,6 +27,7 @@ div {
 header {
     color: skyblue;
     text-align: center;
+    border:2px solid red;
 }
 
 footer {
@@ -36,6 +37,16 @@ footer {
 
 
 /* specifieke stijlen */
+
+header.bookheader {
+   color: skyblue;
+    text-align: center;
+    background-image: url("afbeeldingen/TikTok.png");
+
+   background-position: center;
+   background-repeat: no-repeat;
+   
+}
 
 img.zweefLinks {
     float: left;
@@ -60,9 +71,12 @@ img.imgBorder {
 }
 
 #biebzweefMidden {
-  text-align: center;
-  margin-top: 30px;
-  margin-bottom: -10px;
+  text-align: right;
+  margin-left:500px;
+}
+
+#biebzweefleft {
+text-align: left;
 }
 
 #billy {
@@ -96,9 +110,9 @@ img.imgBorder {
 }
 
 #tiktok {
-  height: 190px;
-  width: 500px;
+ 
 }
+
 
 #book {
   height: 200px;
@@ -106,7 +120,11 @@ img.imgBorder {
 }
 
 .biebtekst {
-  text-align: center;
+  text-align: right; 
+}
+
+.biebtekst2 {
+  text-align: left;
 }
 
 .smalltext {
