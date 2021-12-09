@@ -71,12 +71,7 @@ img.imgBorder {
 }
 
 #biebzweefMidden {
-  text-align: right;
-  margin-left:500px;
-}
-
-#biebzweefleft {
-text-align: left;
+  text-align: center;
 }
 
 #billy {
@@ -109,10 +104,6 @@ text-align: left;
   width: 160px;
 }
 
-#tiktok {
- 
-}
-
 
 #book {
   height: 200px;
@@ -120,12 +111,9 @@ text-align: left;
 }
 
 .biebtekst {
-  text-align: right; 
+  text-align: center; 
 }
 
-.biebtekst2 {
-  text-align: left;
-}
 
 .smalltext {
     font-size: 0.7em;
