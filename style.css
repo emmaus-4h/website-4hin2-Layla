@@ -3,7 +3,7 @@
 html, body {
     height: 700px;
     padding: 0;
-    background-color: rgb(255, 255, 255);  
+    background-color: #ebebeb;  
     color: #303030;
     font: verdana, ariel, sans-serif;
     
@@ -81,6 +81,29 @@ img.imgBorder {
   width: 210px;
 }
 
+.naastelkaar {
+  
+}
+
+.box {
+  height: 240px;
+  width: 200px;
+  overflow: auto;
+  background-color: #ffffff;
+  padding: 10px;
+  float: left;
+  margin-right: 10px;
+}
+
+.box2{
+  height: 240px;
+  width: 200px;
+  overflow: auto;
+  background-color: #ffffff;
+  padding: 10px;
+  margin-right: 10px;
+}
+
 #biebzweefMidden {
   text-align: center;
 }
@@ -113,13 +136,7 @@ img.imgBorder {
 #achilles {
   height: 210px;
   width: 160px;
-}
-
-
-#book {
-  height: 200px;
-  width: 300px;
-}
+} 
 
 .biebtekst {
   text-align: center; 
