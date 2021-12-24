@@ -3,8 +3,8 @@
 html, body {
     height: 700px;
     padding: 0;
-    background-color: #ebebeb;  
-    color: #303030;
+    background-color: #D2B48C;  
+    color: black;
     font: verdana, ariel, sans-serif;
     
 }
@@ -25,9 +25,8 @@ div {
 }
 
 header {
-    color: skyblue;
+    color: white;
     text-align: center;
-    border:2px solid red;
 }
 
 footer {
@@ -38,36 +37,13 @@ footer {
 
 /* specifieke stijlen */
 
-header.bookheader {
-   color: skyblue;
-    text-align: center;
-    background-image: url("afbeeldingen/boekenkast.jpg");
-
-   background-position: center;
-   background-repeat: no-repeat;
-   width: 100%;
-   
-}
-
-header.booktokheader {
-   color: skyblue;
-    text-align: center;
-    background-image: url("afbeeldingen/TikTok.jpeg");
-
-   background-position: center;
-   background-repeat: no-repeat;
-   
-}
-
 img.zweefLinks {
     float: left;
-    border: solid #303030 5px;
     margin-right: 15px;
 }
 
 img.zweefRechts {
   float: right;
-  border: solid #303030 5px;
   margin-left:10px;
 }
 
@@ -75,14 +51,9 @@ img.zweefRechts {
   text-align: center;
 }
 
-
 img.imgBorder {
   height: 210px;
   width: 210px;
-}
-
-.naastelkaar {
-  
 }
 
 .box {
@@ -102,6 +73,12 @@ img.imgBorder {
   background-color: #ffffff;
   padding: 10px;
   margin-right: 10px;
+}
+
+.boximg {
+  height: 125px;
+  width: 125px;
+  text-align: center;
 }
 
 #biebzweefMidden {
@@ -138,6 +115,12 @@ img.imgBorder {
   width: 160px;
 } 
 
+.tiktok {
+  height: 210px;
+  width: 400px;
+  margin-left: 150px;
+}
+
 .biebtekst {
   text-align: center; 
 }
@@ -152,12 +135,13 @@ img.imgBorder {
 }
 
 a {
-    color: skyblue;
+    color: black;
     text-decoration: none;
 }
 
 a:hover {
     text-decoration: underline;
+    color: skyblue;
 }
 
 
@@ -166,7 +150,7 @@ nav ul {
     list-style-type: none;
     margin: auto;
     padding: 0;
-    background-color: #dddddd;
+    background-color: rgb(184, 162, 129);
     overflow: hidden;
 }
 
@@ -183,11 +167,11 @@ nav li a {
 }
 
 nav li a:hover {
-    background-color: #aaaaaa;
+    background-color: rgb(197, 170, 129);
 }
 
 nav li a.active {
-    background-color: skyblue;
+    background-color: #6E260E;
 }
 
 
