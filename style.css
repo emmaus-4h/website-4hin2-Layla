@@ -20,7 +20,7 @@ article {
 }
 
 div {
-  margin-bottom: 30px;
+  margin-bottom: 5%;
 }
 
 header {
@@ -31,6 +31,7 @@ header {
 footer {
     text-align: center;
     padding-bottom: 10px;
+    background-color: rgb(180, 143, 95);
 }
 
 
@@ -39,6 +40,7 @@ footer {
 img.zweefLinks {
     float: left;
     margin-right: 15px;
+    margin-bottom: 0px;
 }
 
 img.zweefRechts {
@@ -56,28 +58,31 @@ img.imgBorder {
 }
 
 .box {
-  height: 240px;
-  width: 200px;
+  height: 400px;
+  width: 31%;
   overflow: auto;
   background-color: #ffffff;
-  padding: 10px;
+  padding-bottom: 10px;
   float: left;
-  margin-right: 10px;
+  margin-right: 15px;
 }
 
 .box2{
-  height: 240px;
-  width: 200px;
+  height: 400px;
+  width: 31%;
   overflow: auto;
   background-color: #ffffff;
-  padding: 10px;
-  margin-right: 10px;
+  padding-bottom: 10px;
+}
+
+.boxes {
+  margin-left: 20%;
+  margin-right: 20%;
 }
 
 .boximg {
-  height: 125px;
-  width: 125px;
-  text-align: center;
+  height: 40%;
+  width: 100%;
 }
 
 #biebzweefMidden {
@@ -85,14 +90,21 @@ img.imgBorder {
 }
 
 #imggrote {
-  height: 210px;
-  width: 160px; 
+  height: 25%;
+  width: 15%; 
+  max-width: 200px;
+  max-height: 400px;
 }
 
 .tiktok {
   height: 210px;
   width: 400px;
-  margin-left: 150px;
+}
+.tiktokZweefMidden {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
 }
 
 .biebtekst {
@@ -105,7 +117,7 @@ img.imgBorder {
 }
 
 .best {
-  margin-bottom: 80px;
+  margin-bottom: 15%;
 }
 
 a {
@@ -138,6 +150,7 @@ nav li a {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    font-size: 1.4em;
 }
 
 nav li a:hover {
