@@ -26,12 +26,27 @@ div {
 header {
     color: white;
     text-align: center;
+    /*https://www.freepik.com/free-photos-vectors/library-background*/
+    background-image: url('afbeeldingen/background.jpg');
+    background-color: #D2B48C;
+    background-blend-mode: darken;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 footer {
     text-align: center;
     padding-bottom: 10px;
-    background-color: rgb(180, 143, 95);
+}
+
+a {
+ color: black;
+ text-decoration: none;
+}
+
+a:hover {
+ text-decoration: underline;
+ color: rgb(88, 66, 37);
 }
 
 
@@ -48,15 +63,48 @@ img.zweefRechts {
   margin-left:10px;
 }
 
-.zweefMidden {
-  text-align: center;
-}
-
 img.imgBorder {
   height: 210px;
   width: 210px;
 }
 
+.zweefMidden {
+  text-align: center;
+}
+
+.smalltext {
+ font-size: 0.7em;
+}
+
+#imggrote {
+  height: 25%;
+  width: 15%; 
+  max-width: 200px;
+  max-height: 400px;
+}
+
+/*Inzoomen van plaatjes op bibliotheek */
+.zoom {
+  transition: transform .2s; 
+  width: 210px;
+  height: 210px;
+  margin: 0 auto;
+}
+
+.zoom:hover {
+  transform: scale(1.5); 
+}
+
+/*Bibliotheek stijlen */
+.biebtekst {
+  text-align: center; 
+}
+
+#biebzweefMidden {
+  text-align: center;
+}
+
+/*Home pagina stijlen*/
 .box {
   height: 400px;
   width: 31%;
@@ -65,6 +113,7 @@ img.imgBorder {
   padding-bottom: 10px;
   float: left;
   margin-right: 15px;
+  text-align: left;
 }
 
 .box2{
@@ -73,6 +122,7 @@ img.imgBorder {
   overflow: auto;
   background-color: #ffffff;
   padding-bottom: 10px;
+  text-align: left;
 }
 
 .boxes {
@@ -85,17 +135,7 @@ img.imgBorder {
   width: 100%;
 }
 
-#biebzweefMidden {
-  text-align: center;
-}
-
-#imggrote {
-  height: 25%;
-  width: 15%; 
-  max-width: 200px;
-  max-height: 400px;
-}
-
+/*Booktok stijlen*/
 .tiktok {
   height: 210px;
   width: 400px;
@@ -107,28 +147,11 @@ img.imgBorder {
   text-align: center;
 }
 
-.biebtekst {
-  text-align: center; 
-}
-
-
-.smalltext {
- font-size: 0.7em;
-}
-
+/*Stijl voor reviews en bestsellers*/
 .best {
   margin-bottom: 15%;
 }
 
-a {
- color: black;
- text-decoration: none;
-}
-
-a:hover {
- text-decoration: underline;
- color: skyblue;
-}
 
 
 /* navigatiebalk */
